@@ -4,3 +4,9 @@ from .share_request import ShareRequest
 from .shared_trip import SharedTrip
 from .itinerary import Itinerary
 from .flight import Flight
+from .address import Address
+from .train import Train
+from .rental_car import RentalCar
+from .lodging import Lodging
+from .event import Event
+from .note import Note
