@@ -3,10 +3,11 @@
       "model": "travelserverapi.Event",
       "pk": 1,
       "fields": {
-          "itinerary": "23 Cornelia Street",
-          "start_time": "",
-          "end_time": "New York",
-          "address": "NY",
+          "itinerary_item": 1,
+          "description": "",
+          "start_time": "New York",
+          "end_time": "NY",
+          "address": "10014",
           "phone_number": "10014"
       }
   },
@@ -14,10 +15,11 @@
       "model": "travelserverapi.Event",
       "pk": 2,
       "fields": {
-          "itinerary": "23 Cornelia Street",
-          "start_time": "",
-          "end_time": "New York",
-          "address": "NY",
+          "itinerary_item": 2,
+          "description": "",
+          "start_time": "New York",
+          "end_time": "NY",
+          "address": "10014",
           "phone_number": "10014"
       }
   },
@@ -25,21 +27,23 @@
       "model": "travelserverapi.Event",
       "pk": 3,
       "fields": {
-          "itinerary": "23 Cornelia Street",
-          "start_time": "",
-          "end_time": "New York",
-          "address": "NY",
+          "itinerary": 3,
+          "description": "",
+          "start_time": "New York",
+          "end_time": "NY",
+          "address": "10014",
           "phone_number": "10014"
       }
   },
   {
       "model": "travelserverapi.Event",
-      "pk": 4,
+      "pk": 3,
       "fields": {
-          "itinerary": "23 Cornelia Street",
-          "start_time": "",
-          "end_time": "New York",
-          "address": "NY",
+          "itinerary": 4,
+          "description": "",
+          "start_time": "New York",
+          "end_time": "NY",
+          "address": "10014",
           "phone_number": "10014"
       }
   }

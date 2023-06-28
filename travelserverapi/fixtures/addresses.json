@@ -27,11 +27,11 @@
       "model": "travelserverapi.Address",
       "pk": 3,
       "fields": {
-          "address1": "4515 Woodhollow Dr.",
+          "address1": "201 E Randolph Sreet",
           "address2": "",
-          "city": "Midland",
-          "state": "TX",
-          "zip_code": "7450",
+          "city": "Chicago",
+          "state": "IL",
+          "zip_code": "60601",
           "country": "United States"
       }
   },

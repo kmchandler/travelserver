@@ -1,0 +1,42 @@
+[
+  {
+      "model": "travelserverapi.Event",
+      "pk": 1,
+      "fields": {
+          "trip": 1,
+          "date": "7/6/2023",
+          "company_name": "The Bean",
+          "confirmation_number": ""
+      }
+  },
+  {
+      "model": "travelserverapi.Event",
+      "pk": 2,
+      "fields": {
+          "trip": 2,
+          "date": "7/6/2023",
+          "company_name": "The Eiffel Tower",
+          "confirmation_number": "123456789"
+      }
+  },
+  {
+      "model": "travelserverapi.Event",
+      "pk": 2,
+      "fields": {
+          "trip": 3,
+          "date": "7/8/2023",
+          "company_name": "Switie Tour of NYC",
+          "confirmation_number": "23456781"
+      }
+  },
+  {
+      "model": "travelserverapi.Event",
+      "pk": 3,
+      "fields": {
+          "trip": 3,
+          "date": "7/9/2023",
+          "company_name": "Sesame Street Visit",
+          "confirmation_number": "345678912"
+      }
+  }
+]
