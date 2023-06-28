@@ -1,0 +1,46 @@
+[
+  {
+      "model": "travelserverapi.Event",
+      "pk": 1,
+      "fields": {
+          "itinerary": "23 Cornelia Street",
+          "start_time": "",
+          "end_time": "New York",
+          "address": "NY",
+          "phone_number": "10014"
+      }
+  },
+  {
+      "model": "travelserverapi.Event",
+      "pk": 2,
+      "fields": {
+          "itinerary": "23 Cornelia Street",
+          "start_time": "",
+          "end_time": "New York",
+          "address": "NY",
+          "phone_number": "10014"
+      }
+  },
+  {
+      "model": "travelserverapi.Event",
+      "pk": 3,
+      "fields": {
+          "itinerary": "23 Cornelia Street",
+          "start_time": "",
+          "end_time": "New York",
+          "address": "NY",
+          "phone_number": "10014"
+      }
+  },
+  {
+      "model": "travelserverapi.Event",
+      "pk": 4,
+      "fields": {
+          "itinerary": "23 Cornelia Street",
+          "start_time": "",
+          "end_time": "New York",
+          "address": "NY",
+          "phone_number": "10014"
+      }
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+      "model": "travelserverapi.Trip",
+      "pk": 1,
+      "fields": {
+          "user": "23 Cornelia Street",
+          "name": "",
+          "image_url": "New York"
+      }
+  },
+  {
+      "model": "travelserverapi.Trip",
+      "pk": 2,
+      "fields": {
+          "user": "23 Cornelia Street",
+          "name": "",
+          "image_url": "New York"
+      }
+  },
+  {
+      "model": "travelserverapi.Trip",
+      "pk": 3,
+      "fields": {
+          "user": "23 Cornelia Street",
+          "name": "",
+          "image_url": "New York"
+      }
+  },
+  {
+      "model": "travelserverapi.Trip",
+      "pk": 4,
+      "fields": {
+          "user": "23 Cornelia Street",
+          "name": "",
+          "image_url": "New York"
+      }
+  }
+]
