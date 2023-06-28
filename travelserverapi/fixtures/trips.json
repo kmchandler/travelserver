@@ -1,0 +1,29 @@
+[
+  {
+      "model": "travelserverapi.Trip",
+      "pk": 1,
+      "fields": {
+          "user": 1,
+          "name": "Tour de Bean",
+          "image_url": "https://cdn.dribbble.com/users/26521/screenshots/1529489/cool-beans.jpg?compress=1&resize=400x300&vertical=center"
+      }
+  },
+  {
+      "model": "travelserverapi.Trip",
+      "pk": 2,
+      "fields": {
+          "user": 2,
+          "name": "Royal Tour",
+          "image_url": "https://img.freepik.com/free-photo/space-background-with-stardust-shining-stars-realistic-colorful-cosmos-with-nebula-milky-way_1258-150921.jpg"
+      }
+  },
+  {
+      "model": "travelserverapi.Trip",
+      "pk": 3,
+      "fields": {
+          "user": 1,
+          "name": "Sister Trip",
+          "image_url": "https://cdn.shopify.com/s/files/1/0158/2376/products/limited-edition-brooches-lapel-pins-cat-enamel-pin-37487559082218_5000x.jpg?v=1655906115"
+      }
+  }
+]
