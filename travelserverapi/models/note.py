@@ -1,6 +1,6 @@
 from django.db import models
-from . import Itinerary
+from . import ItineraryItem
 
-class Note(Itinerary):
-    itinerary = models.ForeignKey(Itinerary, on_delete=models.CASCADE)
+class Note(ItineraryItem):
+    itinerary_item = models.ForeignKey(ItineraryItem, on_delete=models.CASCADE)
     note = models.TextField()
