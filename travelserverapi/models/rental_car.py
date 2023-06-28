@@ -1,12 +1,9 @@
 from django.db import models
-from . import Itinerary
+from . import ItineraryItem
 from . import Address
 
-class RentalCar(Itinerary):
-    itinerary = models.ForeignKey(Itinerary, on_delete=models.CASCADE)
-    date = models.DateField()
-    confirmation_number = models.CharField(max_length=100)
-    company= models.CharField(max_length=100)
+class RentalCar(ItineraryItem):
+    itinerary = models.ForeignKey(ItineraryItem, on_delete=models.CASCADE)
     address = models.ForeignKey(Address, on_delete=models.SET_NULL)
     phone_number = models.CharField(max_length=100)
     pickup_time = models.TimeField()
