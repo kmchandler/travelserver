@@ -1,6 +1,6 @@
 [
   {
-      "model": "travelserverapi.Itinerary",
+      "model": "travelserverapi.ItineraryItem",
       "pk": 1,
       "fields": {
           "trip": 1,
@@ -10,7 +10,7 @@
       }
   },
   {
-      "model": "travelserverapi.Itinerary",
+      "model": "travelserverapi.ItineraryItem",
       "pk": 2,
       "fields": {
           "trip": 2,
@@ -20,7 +20,7 @@
       }
   },
   {
-      "model": "travelserverapi.Itinerary",
+      "model": "travelserverapi.ItineraryItem",
       "pk": 3,
       "fields": {
           "trip": 3,
@@ -30,7 +30,7 @@
       }
   },
   {
-      "model": "travelserverapi.Itinerary",
+      "model": "travelserverapi.ItineraryItem",
       "pk": 4,
       "fields": {
           "trip": 3,
@@ -40,7 +40,7 @@
       }
   },
   {
-    "model": "travelserverapi.Itinerary",
+    "model": "travelserverapi.ItineraryItem",
     "pk": 5,
     "fields": {
         "trip": 1,
@@ -50,7 +50,7 @@
     }
 },
 {
-  "model": "travelserverapi.Itinerary",
+  "model": "travelserverapi.ItineraryItem",
   "pk": 6,
   "fields": {
       "trip": 2,

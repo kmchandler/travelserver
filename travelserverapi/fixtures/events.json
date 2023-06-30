@@ -27,7 +27,7 @@
       "model": "travelserverapi.Event",
       "pk": 3,
       "fields": {
-          "itinerary": 3,
+          "itinerary_item": 3,
           "description": "Swiftie Tour of NYC",
           "start_time": "11:00 AM",
           "end_time": "2:00 PM",
@@ -39,7 +39,7 @@
       "model": "travelserverapi.Event",
       "pk": 3,
       "fields": {
-          "itinerary": 4,
+          "itinerary_item": 4,
           "description": "Sister Visit to Sesame Street",
           "start_time": "9:00 AM",
           "end_time": "10:00 AM ",

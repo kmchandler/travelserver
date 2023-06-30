@@ -3,7 +3,7 @@
       "model": "travelserverapi.Flight",
       "pk": 1,
       "fields": {
-          "itinerary": 5,
+          "itinerary_item": 5,
           "departure_airport": "BNA",
           "departure_time": "10:55 AM",
           "arrival_airport": "DWF",
