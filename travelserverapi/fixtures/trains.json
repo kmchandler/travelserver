@@ -1,0 +1,15 @@
+[
+  {
+      "model": "travelserverapi.Train",
+      "pk": 1,
+      "fields": {
+          "itinerary_item": 5,
+          "departure_station": "Station #1",
+          "departure_station_address": 7,
+          "departure_time": "9:00 AM",
+          "arrival_station": "Station #2",
+          "arrival_station_address": 8,
+          "arrival_time": "9:30 AM"
+      }
+  }
+]

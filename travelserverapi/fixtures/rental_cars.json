@@ -1,0 +1,13 @@
+[
+  {
+      "model": "travelserverapi.RentalCar",
+      "pk": 1,
+      "fields": {
+          "itinerary_item": 1,
+          "address": 6,
+          "phone_number": "123-456-7890",
+          "pickup_time": "11:00 AM",
+          "dropoff_time": "12:00 PM"
+      }
+  }
+]

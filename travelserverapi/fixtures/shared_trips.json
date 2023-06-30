@@ -1,0 +1,10 @@
+[
+  {
+      "model": "travelserverapi.SharedTrip",
+      "pk": 1,
+      "fields": {
+          "user": 2,
+          "trip": 3
+      }
+  }
+]

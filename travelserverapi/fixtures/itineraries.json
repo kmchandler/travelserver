@@ -1,6 +1,6 @@
 [
   {
-      "model": "travelserverapi.Event",
+      "model": "travelserverapi.ItineraryItem",
       "pk": 1,
       "fields": {
           "trip": 1,
@@ -10,7 +10,7 @@
       }
   },
   {
-      "model": "travelserverapi.Event",
+      "model": "travelserverapi.ItineraryItem",
       "pk": 2,
       "fields": {
           "trip": 2,
@@ -20,7 +20,7 @@
       }
   },
   {
-      "model": "travelserverapi.Event",
+      "model": "travelserverapi.ItineraryItem",
       "pk": 3,
       "fields": {
           "trip": 3,
@@ -30,7 +30,7 @@
       }
   },
   {
-      "model": "travelserverapi.Event",
+      "model": "travelserverapi.ItineraryItem",
       "pk": 4,
       "fields": {
           "trip": 3,
@@ -38,5 +38,25 @@
           "company_name": "Sesame Street",
           "confirmation_number": "345678912"
       }
+  },
+  {
+    "model": "travelserverapi.ItineraryItem",
+    "pk": 5,
+    "fields": {
+        "trip": 1,
+        "date": "7/6/2023",
+        "company_name": "American Airlines",
+        "confirmation_number": ""
+    }
+},
+{
+  "model": "travelserverapi.ItineraryItem",
+  "pk": 6,
+  "fields": {
+      "trip": 2,
+      "date": "7/6/2023",
+      "company_name": "The Ritz Carlton Paris",
+      "confirmation_number": "123456789"
   }
+}
 ]

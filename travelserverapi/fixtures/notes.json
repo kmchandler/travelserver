@@ -1,0 +1,10 @@
+[
+  {
+      "model": "travelserverapi.Note",
+      "pk": 1,
+      "fields": {
+          "itinerary_item": 6,
+          "note": "Requested fresh salmon upon arrival"
+      }
+  }
+]

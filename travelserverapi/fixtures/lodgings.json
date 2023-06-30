@@ -1,0 +1,13 @@
+[
+  {
+      "model": "travelserverapi.Lodging",
+      "pk": 1,
+      "fields": {
+          "itinerary_item": 6,
+          "address": 5,
+          "phone_number": "+33 1 43 16 30 30",
+          "checkin_time": "11:00 AM",
+          "checkout_time": "12:00 PM"
+      }
+  }
+]
