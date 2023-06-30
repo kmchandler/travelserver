@@ -70,5 +70,29 @@
         "zip_code": "60601",
         "country": "United States"
     }
+},
+{
+    "model": "travelserverapi.Address",
+    "pk": 7,
+    "fields": {
+        "address1": "1234 Train Station",
+        "address2": "#1",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10014",
+        "country": "United States"
+    }
+},
+{
+    "model": "travelserverapi.Address",
+    "pk": 8,
+    "fields": {
+        "address1": "5678 Train Station",
+        "address2": "#2",
+        "city": "Manhattan",
+        "state": "NY",
+        "zip_code": "10123",
+        "country": "United States"
+    }
 }
 ]

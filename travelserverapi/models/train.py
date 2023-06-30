@@ -3,7 +3,7 @@ from . import ItineraryItem
 from . import Address
 
 class Train(ItineraryItem):
-    itinerary = models.ForeignKey(ItineraryItem, on_delete=models.CASCADE)
+    itinerary_item = models.ForeignKey(ItineraryItem, on_delete=models.CASCADE)
     departure_station = models.CharField(max_length=100)
     departure_station_address = models.ForeignKey(Address, on_delete=models.SET_NULL)
     departure_time = models.TimeField()
