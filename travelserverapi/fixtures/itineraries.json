@@ -48,5 +48,15 @@
         "company_name": "American Airlines",
         "confirmation_number": ""
     }
+},
+{
+  "model": "travelserverapi.Itinerary",
+  "pk": 6,
+  "fields": {
+      "trip": 2,
+      "date": "7/6/2023",
+      "company_name": "The Ritz Carlton Paris",
+      "confirmation_number": "123456789"
+  }
 }
 ]

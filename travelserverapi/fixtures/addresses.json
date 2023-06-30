@@ -46,5 +46,17 @@
           "zip_code": "75007",
           "country": "France"
       }
-  }
+  },
+  {
+    "model": "travelserverapi.Address",
+    "pk": 5,
+    "fields": {
+        "address1": "15 Pl",
+        "address2": "Vendome",
+        "city": "Paris",
+        "state": "",
+        "zip_code": "75001",
+        "country": "France"
+    }
+}
 ]
