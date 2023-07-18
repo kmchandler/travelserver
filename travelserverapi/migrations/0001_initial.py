@@ -108,7 +108,7 @@ class Migration(migrations.Migration):
             name='ShareRequest',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('board', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='travelserverapi.trip')),
+                ('trip', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='travelserverapi.trip')),
                 ('user', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='travelserverapi.user')),
             ],
         ),
@@ -116,7 +116,7 @@ class Migration(migrations.Migration):
             name='SharedTrip',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('board', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='travelserverapi.trip')),
+                ('trip', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='travelserverapi.trip')),
                 ('user', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='travelserverapi.user')),
             ],
         ),
@@ -145,7 +145,7 @@ class Migration(migrations.Migration):
         ),
         migrations.AddConstraint(
             model_name='sharedtrip',
-            constraint=models.UniqueConstraint(fields=('user', 'board'), name='unique_share_trip'),
+            constraint=models.UniqueConstraint(fields=('user', 'trip'), name='unique_share_trip'),
         ),
         migrations.AddField(
             model_name='rentalcar',
