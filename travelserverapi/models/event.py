@@ -4,6 +4,7 @@ from . import Address
 
 class Event(ItineraryItem):
     itinerary_item = models.ForeignKey(ItineraryItem, related_name="events", on_delete=models.CASCADE)
+    description = models.TextField()
     start_time = models.TimeField()
     end_time = models.TimeField(null=True)
     address = models.ForeignKey(Address, on_delete=models.SET_NULL, null=True)

@@ -5,8 +5,8 @@
       "fields": {
           "itinerary_item": 1,
           "description": "Bean visits the Bean",
-          "start_time": "11:30 AM",
-          "end_time": "12:00 PM",
+          "start_time": "11:30",
+          "end_time": "12:00",
           "address": 3,
           "phone_number": ""
       }
@@ -17,8 +17,8 @@
       "fields": {
           "itinerary_item": 2,
           "description": "Kess Eiffel Tower Visit",
-          "start_time": "6:45 PM",
-          "end_time": "8:45 PM",
+          "start_time": "18:45",
+          "end_time": "20:45",
           "address": 4,
           "phone_number": "+33 (0)8 92 70 12 39"
       }
@@ -29,8 +29,8 @@
       "fields": {
           "itinerary_item": 3,
           "description": "Swiftie Tour of NYC",
-          "start_time": "11:00 AM",
-          "end_time": "2:00 PM",
+          "start_time": "11:00",
+          "end_time": "13:00",
           "address": 1,
           "phone_number": ""
       }
@@ -41,8 +41,8 @@
       "fields": {
           "itinerary_item": 4,
           "description": "Sister Visit to Sesame Street",
-          "start_time": "9:00 AM",
-          "end_time": "10:00 AM ",
+          "start_time": "9:00",
+          "end_time": "10:00",
           "address": 2,
           "phone_number": "215-702-3566"
       }

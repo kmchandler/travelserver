@@ -4,7 +4,7 @@
       "pk": 1,
       "fields": {
           "itinerary_item": 6,
-          "note": "Requested fresh salmon upon arrival"
+          "note_info": "Requested fresh salmon upon arrival"
       }
   }
 ]

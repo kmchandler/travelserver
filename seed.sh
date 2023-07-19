@@ -7,6 +7,7 @@ python3 manage.py migrate travelserverapi
 python3 manage.py loaddata users
 python3 manage.py loaddata trips
 python3 manage.py loaddata itinerary_items
+python3 manage.py loaddata addresses
 python3 manage.py loaddata events
 python3 manage.py loaddata flights
 python3 manage.py loaddata lodgings
