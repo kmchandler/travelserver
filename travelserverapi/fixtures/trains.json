@@ -6,10 +6,10 @@
           "itinerary_item": 5,
           "departure_station": "Station #1",
           "departure_station_address": 7,
-          "departure_time": "9:00 AM",
+          "departure_time": "9:00",
           "arrival_station": "Station #2",
           "arrival_station_address": 8,
-          "arrival_time": "9:30 AM"
+          "arrival_time": "9:30"
       }
   }
 ]

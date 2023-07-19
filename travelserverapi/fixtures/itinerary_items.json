@@ -4,7 +4,7 @@
       "pk": 1,
       "fields": {
           "trip": 1,
-          "date": "7/6/2023",
+          "date": "2023-06-07",
           "company_name": "The Bean",
           "confirmation_number": ""
       }
@@ -14,7 +14,7 @@
       "pk": 2,
       "fields": {
           "trip": 2,
-          "date": "7/6/2023",
+          "date": "2023-06-07",
           "company_name": "The Eiffel Tower",
           "confirmation_number": "123456789"
       }
@@ -24,7 +24,7 @@
       "pk": 3,
       "fields": {
           "trip": 3,
-          "date": "7/8/2023",
+          "date": "2023-08-07",
           "company_name": "Cornelia Street Apartment",
           "confirmation_number": "23456781"
       }
@@ -34,7 +34,7 @@
       "pk": 4,
       "fields": {
           "trip": 3,
-          "date": "7/9/2023",
+          "date": "2023-09-07",
           "company_name": "Sesame Street",
           "confirmation_number": "345678912"
       }
@@ -44,7 +44,7 @@
     "pk": 5,
     "fields": {
         "trip": 1,
-        "date": "7/6/2023",
+        "date": "2023-06-07",
         "company_name": "American Airlines",
         "confirmation_number": ""
     }
@@ -54,7 +54,7 @@
   "pk": 6,
   "fields": {
       "trip": 2,
-      "date": "7/6/2023",
+      "date": "2023-06-07",
       "company_name": "The Ritz Carlton Paris",
       "confirmation_number": "123456789"
   }

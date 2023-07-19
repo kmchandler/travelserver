@@ -5,7 +5,7 @@ from .trip import Trip
 
 class ShareRequest(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
-    board = models.ForeignKey(Trip, on_delete=models.CASCADE)
+    trip = models.ForeignKey(Trip, on_delete=models.CASCADE)
 
     class Meta:
         constraints = [

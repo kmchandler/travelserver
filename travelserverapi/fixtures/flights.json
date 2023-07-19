@@ -5,9 +5,9 @@
       "fields": {
           "itinerary_item": 5,
           "departure_airport": "BNA",
-          "departure_time": "10:55 AM",
+          "departure_time": "10:55",
           "arrival_airport": "DWF",
-          "arrival_time": "12:40 PM",
+          "arrival_time": "12:40",
           "layover": false
       }
   }
